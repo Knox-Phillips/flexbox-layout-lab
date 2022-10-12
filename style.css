@@ -7,8 +7,27 @@
     height: 266px;
     width: 1152px;
     display: flex;
+    justify-content:center;
+    align-items:center;
 }
-
+h1{
+    margin-right:600px;
+    width:380px;
+    height:62px;
+}
+header{
+    display:flex;
+    width: 1152px;
+    flex-wrap:nowrap;
+    
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width:220px;
+    height:62px;
+}
 .rec2{
     background-color: #C4C4C4;
     height: 129px;
@@ -29,4 +48,51 @@ a{
 
 a:hover{
    color: #e19999;
+}
+
+section {
+    display:flex;
+    width:287px;
+    height:450px;
+    flex-direction:column;
+}
+
+.rec2 {
+    width:273px;
+    height:129px;
+    display:flex;
+}
+
+article {
+    display:flex;
+    width:680px;
+    height:286px;
+    text-align:justify;
+    flex-direction:column;
+    align-items:flex-start;
+}
+p {
+    line-height:25px;
+}
+main {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row-reverse;
+    height:304px;
+    width:1152px;
+}
+
+.line1{
+    width:301.52px;
+    height:0;
+    border:1px solid black;
+    transform:rotate(25.12deg);
+}
+
+.line2{
+    width:301.52px;
+    height:0;
+    border:1px solid black;
+        transform:rotate(-25.12deg);
+
 }
