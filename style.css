@@ -1,0 +1,32 @@
+*{
+    font-family: paragati-narrow;
+}
+
+.rectangle{
+    background-color: #C4C4C4;
+    height: 266px;
+    width: 1152px;
+    display: flex;
+}
+
+.rec2{
+    background-color: #C4C4C4;
+    height: 129px;
+    width: 273px;
+}
+
+.circle{
+    background-color: #e19999;
+    height: 210px;
+    width: 210px;
+    border-radius: 360px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+   color: #e19999;
+}
